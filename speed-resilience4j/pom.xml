@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.tyyb</groupId>
+    <artifactId>speed</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.tyyb</groupId>
+  <artifactId>speed-resilience4j</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>speed-resilience4j</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+  	
+  	
+  	
+  	<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-circuitbreaker -->
+<dependency>
+    <groupId>io.github.resilience4j</groupId>
+    <artifactId>resilience4j-circuitbreaker</artifactId>
+    <version>1.4.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-retry -->
+<dependency>
+    <groupId>io.github.resilience4j</groupId>
+    <artifactId>resilience4j-retry</artifactId>
+    <version>1.4.0</version>
+    </dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-bulkhead -->
+<dependency>
+    <groupId>io.github.resilience4j</groupId>
+    <artifactId>resilience4j-bulkhead</artifactId>
+    <version>1.4.0</version>
+</dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-ratelimiter -->
+<dependency>
+    <groupId>io.github.resilience4j</groupId>
+    <artifactId>resilience4j-ratelimiter</artifactId>
+    <version>1.4.0</version>
+</dependency>
+    
+    
+    
+    <!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-timelimiter -->
+<dependency>
+    <groupId>io.github.resilience4j</groupId>
+    <artifactId>resilience4j-timelimiter</artifactId>
+    <version>1.4.0</version>
+</dependency>
+    
+    
+    
+  	
+  	
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

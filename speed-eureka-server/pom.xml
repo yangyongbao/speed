@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.tyyb</groupId>
+    <artifactId>speed</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.tyyb</groupId>
+  <artifactId>speed-eureka-server</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>speed-eureka-server</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+  
+		
+	<!-- 最新版的 eureka 服务端包 -->
+	<dependency> 
+	  <groupId>org.springframework.cloud</groupId>  
+	  <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId> 
+	</dependency>
+
+	<!-- 监控管理 -->
+	<dependency> 
+	  <groupId>org.springframework.boot</groupId>  
+	  <artifactId>spring-boot-starter-actuator</artifactId> 
+	</dependency>
+
+
+		
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  
+  <build>
+  	<pluginManagement></pluginManagement>
+  
+  </build>
+</project>

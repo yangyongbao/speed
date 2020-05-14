@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+	
+    
+    <!--  
+    <bean id="uploadService" class="org.speed.dubbo.provider.UploadServiceImpl"/>
+    <bean id="userService" class="org.speed.dubbo.provider.UserServiceImpl"/>
+    <bean id="payService" class="org.speed.dubbo.provider.PayServiceImpl"/>
+    <bean id="demoService" class="org.speed.dubbo.provider.DemoServiceImpl"/>
+    <bean id="authService" class="org.speed.dubbo.provider.AuthServiceImpl"/>
+    -->
+    
+    <bean id="orderService" class="org.speed.dubbo.provider.OrderServiceImpl"/>
+    
+    
+</beans>
